@@ -13,3 +13,4 @@ class MaxArray {
         System.out.println("Max = " + max(arr));
     }
 }
+
