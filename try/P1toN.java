@@ -10,5 +10,6 @@ class P1toN{
        Scanner sc=new Scanner(System.in);
        int a=sc.nextInt();
        printNum(a);
+       // all
     }
 }
