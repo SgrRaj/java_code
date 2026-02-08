@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 class Div6{
@@ -8,12 +9,21 @@ class Div6{
             }  
         }
     }
-
-    public static void main(String[] args){
+    
+     public static void main(String[] args){
         Scanner sc=new Scanner(System.in);
         int a=sc.nextInt();
-
         DivBy(a);
     }
 }
+
+
+
+
+
+
+
+
+
+
 
