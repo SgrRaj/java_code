@@ -23,6 +23,7 @@ class PrimeOrNot{
         }
         else System.out.println(" a prime no");
     }
+    
     }
 
 
