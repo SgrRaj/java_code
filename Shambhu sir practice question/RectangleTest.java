@@ -4,9 +4,9 @@ class RectangleTest{
 
         r1.l=10.8;
         r1.w=10.2;
-        System.out.println(r1.getDetails(10.0,10.0));
-         System.out.println("area is:"+r1.getArea(10.0,10.0));
-          System.out.println("perimeter is: "+r1.getPerimeter(10.0,10.0));
+        System.out.println(r1.getDetails(r1.l,r1.w));
+         System.out.println("area is:"+r1.getArea(r1.l,r1.w));
+          System.out.println("perimeter is: "+r1.getPerimeter(r1.l,r1.w));
 
     }
 }

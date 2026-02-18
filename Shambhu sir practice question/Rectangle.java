@@ -2,7 +2,7 @@ class Rectangle{
     double l,w;
 
     public String getDetails(double l,double w){
-        return "length is :"+l+"Width is: "+w;
+        return "length is :"+l+" Width is: "+w;
     }
 
     public double getArea(double l,double w){
