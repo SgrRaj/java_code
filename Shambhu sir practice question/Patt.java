@@ -16,5 +16,6 @@ public class Patt {
 
             System.out.println();
         }
+        // ye as a nested loop kam krega 
     }
 }
