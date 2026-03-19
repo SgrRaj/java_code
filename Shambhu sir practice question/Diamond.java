@@ -16,7 +16,7 @@ public class DiamondPattern {
             System.out.println();
             //
         }
-        //lower diamond
+        //lower diamond done
         for (int i = n - 1; i >= 1; i--) {
             for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
