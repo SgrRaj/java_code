@@ -1,7 +1,7 @@
 class SwapArray{
 
      public static void SwapEle(int a,int b){
-        
+        int a;
     }
 
     
