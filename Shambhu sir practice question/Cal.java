@@ -5,6 +5,7 @@ class Cal{
         double sum=a+b;
         System.out.println("sum is: "+sum);
         double sub=a-b;
+        //
         System.out.println("sub is: "+sub);
         double mul=a*b;
         System.out.println("mul is: "+mul);
