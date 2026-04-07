@@ -7,7 +7,7 @@ public class Fac {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int n = sc.nextInt();
-
+//
         System.out.print("Prime Factors: ");
 
         for (int i = 2; i <= n; i++) {
