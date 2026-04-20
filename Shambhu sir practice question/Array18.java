@@ -7,6 +7,7 @@ class Array18{
             System.out.println(n+" ");
         }
     }
+    //
 
 
     public static int[] insertElement(int[] nums,int index,int val){
