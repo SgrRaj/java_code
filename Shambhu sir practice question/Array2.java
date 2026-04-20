@@ -12,8 +12,8 @@ public class Array2 {
             arr[k] = sc.nextInt();
         }
 
-        int i = sc.nextInt();   // first index
-        int j = sc.nextInt();   // second index
+        int i = sc.nextInt();   // first index  //
+        int j = sc.nextInt();   // second index //
 
 System.out.println("Reached here"); 
         // swap
