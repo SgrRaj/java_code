@@ -2,6 +2,7 @@ class FreqInAnyRange{
     public static void printFreq(int[] a){
         int min=a[0];
         int max=a[0];
+        //
         for(int n:a){
             if(n>max){
                 max=n;
