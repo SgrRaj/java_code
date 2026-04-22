@@ -7,6 +7,6 @@ class GetAvg{
     public static void main(String[] args){
         int x=10,y=20,z=30;
             int result=GetAverage(x,y,z);
-            System.out.println("Total average of these three no is "+result);
+            System.out.println("Total average of these three no is "+result); //20
     }
 }
