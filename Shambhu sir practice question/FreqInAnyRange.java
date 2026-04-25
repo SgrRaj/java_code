@@ -2,7 +2,7 @@ class FreqInAnyRange{
     public static void printFreq(int[] a){
         int min=a[0];
         int max=a[0];
-        //
+        
         for(int n:a){
             if(n>max){
                 max=n;
@@ -10,8 +10,10 @@ class FreqInAnyRange{
             else if(n<min){
                 min=n;
             }
-
+            
         }
+
+
         int[] freq=new int[max-min+1];
         for(int n:a){
             freq[n-min]++;
