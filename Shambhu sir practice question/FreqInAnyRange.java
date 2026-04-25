@@ -10,13 +10,13 @@ class FreqInAnyRange{
             else if(n<min){
                 min=n;
             }
-            
+
         }
 
 
         int[] freq=new int[max-min+1];
         for(int n:a){
-            freq[n-min]++;
+            freq[n-min]++; //freq
         }
 
         for(int i=0;i<freq.length;i++){
