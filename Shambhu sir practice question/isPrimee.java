@@ -1,7 +1,7 @@
 
 
 class isPrimee{ 
-    //check whether the number is prime or not
+    //check whether the number is prime or not ?
 
 public static boolean isPrimee(int n){
     if(n<2)
