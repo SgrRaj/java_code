@@ -2,7 +2,7 @@ public class SortColors {
 
     public void sortColors(int[] a) {
         int low = 0, mid = 0, high = a.length - 1;
-
+            //
         while (mid <= high) {
             if (a[mid] == 0) {
                 swap(a, low, mid);
