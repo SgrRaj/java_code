@@ -5,7 +5,8 @@ class freq100{
       
     }
     public static void printFreq(int[] a){
-  int[] freq=new int[101];
+  int[] freq=new int[101]; //101 is size of freq array because we are counting frequency of numbers from 0 to 100
+  
         for(int n:a){
             freq[n]+=1;
         }
