@@ -8,7 +8,7 @@ public class TwoPointer {
 
         while (left < right) {
             int sum = arr[left] + arr[right];
-
+//
             if (sum == target) {
                 System.out.println("Pair found: " + arr[left] + ", " + arr[right]);
                 return;
