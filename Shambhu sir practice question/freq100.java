@@ -1,6 +1,6 @@
 class freq100{
     public static void main(String[] args){
-        int[] a={10,20,4,5,6,7,3,2,4,6,6,4,3,2};
+        int[] a={10,,6,7,3,2,4,6,6,4,3,2};
         printFreq(a);
       
     }
