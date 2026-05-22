@@ -2,7 +2,7 @@ public class ReverseSeq {
     public static void main(String[] args) {
         String str = "I love Java programming";
 
-        // Split sentence into words
+        // Split sentence into words using split
         String[] words = str.split(" ");
 
         // Reverse words
