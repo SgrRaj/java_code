@@ -10,7 +10,8 @@ class B extends A {
 }
 public class Inheritance1 {
     public static void main(String[] args) {
-        A obj = new B();
-        obj.show();
+        A obj = new B();  //upcasting
+        obj.show(); //Output: A (because static methods are resolved at compile time
+                    //  based on reference type)
     }
 }
