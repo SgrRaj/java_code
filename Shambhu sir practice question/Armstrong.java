@@ -9,7 +9,7 @@ import java.util.*;
 class Armstrong{
      public static boolean isArm(int n){
         int count=0,num=n;
-        while(n>0){
+        while(n>0){ // to count the number of digits in the number
         n/=10;
          count++;
         }
