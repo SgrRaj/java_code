@@ -15,6 +15,7 @@ public class AllUniqueSubstring {
         char c = s.charAt(right);
       if(m.getOrDefault(c,-1)+1>left){
         left = m.getOrDefault(c,-1)+1;
+        
       }
 
       uniqueSubstrings.add(s.substring(left,right+1));
