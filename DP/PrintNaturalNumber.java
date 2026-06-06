@@ -9,7 +9,7 @@ public class PrintNaturalNumber {
         }
         System.out.println(n);
         printNum(n+1);
-        // System.out.println(n);
+         System.out.println(n);
         
     }
 }
