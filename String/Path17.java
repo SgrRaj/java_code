@@ -14,8 +14,9 @@ public static String path(String s){
 for(int i=s.length()-1;i>=0;i--){
     if(s.charAt(i)!='\\'){
         s1=s.charAt(i)+s1;
+    }
+    else{
         break;
-        
     }
 }
 return s1;
